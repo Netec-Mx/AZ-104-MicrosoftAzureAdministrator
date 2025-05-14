@@ -11,7 +11,7 @@ lab:
 
 In this lab, you learn about Azure web apps. You learn to configure a web app to display a Hello World application in an external GitHub repository. You learn to create a staging slot and swap with the production slot. You also learn about autoscaling to accommodate demand changes.
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using East US.
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using Canada Central.
 
 ## Estimated timing: 20 minutes
 
@@ -59,7 +59,7 @@ In this task, you create an Azure web app. Azure App Services is a Platform As a
     | Publish | **Code** |
     | Runtime stack | **PHP 8.2** |
     | Operating system | **Linux** |
-    | Region | **East US** |
+    | Region | **Canada Central** |
     | Pricing plans | **Premium V3 P1V3** |
     | Zone redundancy | accept the defaults |
 
