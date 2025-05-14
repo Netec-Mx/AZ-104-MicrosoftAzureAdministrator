@@ -10,7 +10,7 @@ lab:
 
 This is the first in a series of labs for Azure Administrators. In this lab, you learn about users and groups. Users and groups are the basic building blocks for an identity solution. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **East US**. 
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **Canada Central**. 
 
 
 ## Estimated timing: 30 minutes
@@ -133,14 +133,6 @@ In this task, you create a group account. Group accounts can include user accoun
 
 >**Note:** You may be managing a large number of groups. Does your organization have a plan for creating groups and adding members?
    
-## Extend your learning with Copilot
-
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-+ What are the Azure PowerShell and CLI commands to create a security group called IT Admins? Provide the official command reference page.  
-+ Provide a step-by-step strategy for managing users and groups in Microsoft Entra ID.
-+ What are the steps in the Azure portal to bulk create users and groups?
-+ Provide a comparison table of internal and external Microsoft Entra ID user accounts. 
-
 
 ## Learn more with self-paced training
 
