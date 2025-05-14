@@ -54,7 +54,7 @@ In this task, you create an Azure web app. Azure App Services is a Platform As a
     | Setting | Value |
     | --- | ---|
     | Subscription | your Azure subscription |
-    | Resource group | `az104-rg9` (If necessary, select **Create new**) |
+    | Resource group | `az104-rgYY` (**"YY"** is equal to your student number) |
     | Web app name | any globally unique name |
     | Publish | **Code** |
     | Runtime stack | **PHP 8.2** |
