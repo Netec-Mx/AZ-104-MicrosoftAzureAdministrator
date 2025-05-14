@@ -176,7 +176,7 @@ In this task, you will configure autoscaling of Azure Web App. Autoscaling enabl
 
 1. Select **Stop** to complete the test run. You don't need to wait for the test to complete. 
 
-## Cleanup your resources
+## Task 6: Cleanup your resources
 
    >**Note:** **Do NOT delete the resource group az104-rgYY** (**"YY"** is equal to your student number). Only delete the resources inside it.**
   
