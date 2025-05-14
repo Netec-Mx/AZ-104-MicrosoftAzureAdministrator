@@ -181,7 +181,9 @@ In this task, you will configure autoscaling of Azure Web App. Autoscaling enabl
    >**Note:** **Do NOT delete the resource group az104-rgYY** (**"YY"** is equal to your student number) **Only delete the resources inside it.**
   
 1. Go to the `resource group az104-rgYY`, then in the Overview blade.
+   
 1. Mark the checkbox at the top of the **Name** column to select all created resources.
+   
 1. Click **Delete** at the top toolbar to remove the selected resources.
 
 
