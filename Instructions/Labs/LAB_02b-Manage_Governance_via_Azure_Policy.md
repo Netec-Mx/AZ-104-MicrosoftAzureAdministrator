@@ -61,7 +61,7 @@ In this task, you will create and assign a tag to an Azure resource group via th
     | --- | --- |
     | Subscription name | your subscription |
     | Resource group name | `az104-rg2` |
-    | Location | **East US** |
+    | Location | **West US** |
 
     >**Note:** For each lab in this course you will create a new resource group. This lets you quickly locate and manage your lab resources. 
 
