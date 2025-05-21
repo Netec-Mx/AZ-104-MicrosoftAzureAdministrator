@@ -232,20 +232,14 @@ In this task, you configure and test a resource lock. Locks prevent either delet
 
     >**Note:** You will need to remove the lock if you intend to delete the resource group. 
     
-## Cleanup your resources
+## Task 5: Cleanup your resources
 
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab.
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-+ What are the Azure PowerShell and CLI commands for adding and deleting resource locks on a resource group?
-+ Tabulate the differences between Azure policy and Azure RBAC, include examples.
-+ What are the steps to enforce Azure policy and remediate resources which are not compliant?
-+ How can I get a report of Azure resources with specific tags?
 
 ## Learn more with self-paced training
 
