@@ -216,6 +216,7 @@ In this task, you will use a Bicep file to deploy a managed disk. Bicep is a dec
     + Change the **sku name** value, line 26, to StandardSSD_LRS.
     + Change the **diskSizeinGiB** value; line 7, to 32.
 
+
     >**Note:** A completed Bicep template is available in the lab files.
     
 1. Use **Ctrl + S** to save your changes.
