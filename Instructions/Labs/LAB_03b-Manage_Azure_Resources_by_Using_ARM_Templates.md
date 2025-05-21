@@ -135,24 +135,9 @@ In this task, you work with the Azure Cloud Shell and Azure PowerShell. Azure Cl
 
    ![Screenshot of cloud shell icon.](../media/az104-lab03-cloudshell-icon.png)
 
-1. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**. 
+1. In the Cloud Shell terminal menu, select **Switch to PowerShell**. 
 
     >**Did you know?**  If you mostly work with Linux systems, Bash (CLI) feels more familiar. If you mostly work with Windows systems, Azure PowerShell feels more familiar. 
-
-1. On the **Getting started** screen select **Mount storage account**, select your **Storage account subscription**, and then select **Apply**.
-
-1. Select **I want to create a storage account** and then **Next**. Complete the **Create storage account** information. 
-    
-    | Settings | Values |
-    |  -- | -- |
-    | Resource Group | **az104-rg3** |
-    | Region | *select your region* | 
-    | Storage account (Create new) | *must be globally unique, between 3 and 24 characters in length and use numbers and lower case letters only* |
-    | File share (Create new) | `fs-cloudshell` |
-
-1. When completed select **Create**.
-
-    >It will take a couple of minutes to provision the storage.
 
 1. Select **Settings** (top bar) and then **Go to classic version**.
 
