@@ -206,7 +206,7 @@ In this task, you will use a Bicep file to deploy a managed disk. Bicep is a dec
 
 1. Click **Editor** and when prompted **Confirm** the switch to the Classic Cloud Shell.
 
-1. Select the **azuredeploydisk.bicep** file 
+1. Select the Editor (curly brackets) icon and navigate to the **azuredeploydisk.bicep** file on the left in the navigation pane. 
 
 1. Take a minute to read through the Bicep template file. Notice how the disk resource is defined. 
    
