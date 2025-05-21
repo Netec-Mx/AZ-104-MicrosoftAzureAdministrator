@@ -234,21 +234,13 @@ In this task, you will use a Bicep file to deploy a managed disk. Bicep is a dec
 
     >**Note:** You have successfully deployed five managed disks, each in a different way. Nice job!
 
-## Cleanup your resources
+## Task 6: Cleanup your resources
 
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
-
-## Extend your learning with Copilot
-
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ What is the format of the Azure Resource Manager template file? Explain each component with examples. 
-+ How do I use an existing Azure Resource Manager template?
-+ Compare and contrast Azure Resource Manager templates and Azure Bicep templates. 
 
 
 ## Learn more with self-paced training
