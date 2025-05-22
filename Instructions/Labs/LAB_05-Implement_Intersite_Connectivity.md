@@ -221,7 +221,7 @@ In this task, you want to control network traffic between the perimeter subnet a
 
 1. Search for select the `CoreServicesVnet`.
 
-1. Select **Subnets** and then **+ Create**. Be sure to **Save** your changes. 
+1. Select **Subnets** and then **+ Subnet**, configure and then select **Add**. 
 
     | Setting | Value | 
     | --- | --- |
@@ -230,7 +230,7 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Size | `/24`  |
 
    
-1. In the Azure portal, search for and select `Route tables`, and then select **Create**. 
+1. In the Azure portal, search for and select `Route tables`, and then select **+ Create**. 
 
     | Setting | Value | 
     | --- | --- |
@@ -239,6 +239,7 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Region | **West US** |
     | Name | `rt-CoreServices` |
     | Propagate gateway routes | **No** |
+1. Select **Review + Create**, and then select **Create**.
 
 1. After the route table deploys, select **Go to resource**.
 
@@ -252,9 +253,9 @@ In this task, you want to control network traffic between the perimeter subnet a
     | Next hop type | **Virtual appliance** (notice your other choices) |
     | Next hop address | `10.0.1.7` (future NVA) |
 
-1. Select **+ Add** when the route is completed. The last thing to do is associate the route with the subnet.
+1. Select **Add** when the route is completed. The last thing to do is associate the route with the subnet.
 
-1. Select **Subnets** and then **Associate**. Complete the configuration.
+1. Select **Subnets** and then **+Associate**. Complete the configuration and then select **OK**..
 
     | Setting | Value | 
     | --- | --- |
