@@ -281,7 +281,7 @@ A private DNS zone provides name resolution services within virtual networks. A 
 
 1. Notice on the **Overview** blade there are no name server records. 
 
-1. Select **DNS Management** and select **Virtual network links**, and then Select **+ Add**, Configure the link. 
+1. Under **DNS Management** click **Virtual network links**, and then Select **+ Add**, Configure the link. 
 
     | Property | Value    |
     |:---------|:---------|
@@ -290,7 +290,7 @@ A private DNS zone provides name resolution services within virtual networks. A 
 
 1. Select **Create** and wait for the link to create. 
 
-1. Under **DNS Management** click **Recordsets**. You would now add a record for each virtual machine that needs private name-resolution support.Select **+ Add** and then Configure.
+1. Under **DNS Management** click **Recordsets**. You would now add a record for each virtual machine that needs private name-resolution support. Select **+ Add** and then Configure.
 
     | Property | Value    |
     |:---------|:---------|
