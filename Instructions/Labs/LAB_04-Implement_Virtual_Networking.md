@@ -47,7 +47,7 @@ These virtual networks and subnets are structured in a way that accommodates exi
 + Task 1: Create a virtual network with subnets using the portal.
 + Task 2: Create a virtual network and subnets using a template.
 + Task 3: Create and configure communication between an Application Security Group and a Network Security Group.
-+ Task 4: Configure public and private Azure DNS zones.
++ Task 4: Configure private Azure DNS zones.
   
 ## Task 1: Create a virtual network with subnets using the portal
 
