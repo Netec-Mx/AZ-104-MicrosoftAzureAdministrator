@@ -10,7 +10,7 @@ lab:
 
 This lab is the first of three labs that focuses on virtual networking. In this lab, you learn the basics of virtual networking and subnetting. You learn how to protect your network with network security groups and application security groups. You also learn about DNS zones and records. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **East US**.
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **West US**.
 
 ## Estimated time: 50 minutes
 
@@ -65,7 +65,7 @@ The organization plans a large amount of growth for core services. In this task,
 	| ------------------ | -------------------- |
 	| Resource Group     | `az104-rg4` (if necessary, create new) |
 	| Name               | `CoreServicesVnet`     |
-	| Region             | (US) **East US**         |
+	| Region             | (US) **West US**         |
 
 1. Move to the **IP Addresses** tab.
 
@@ -177,7 +177,7 @@ In this task, we create an Application Security Group and a Network Security Gro
     | Subscription | *your subscription* |
     | Resource group | **az104-rg4** |
     | Name | `asg-web` |
-    | Region | **East US**  |
+    | Region | **West US**  |
 
 1. Click **Review + create** and then after the validation click **Create**.
 
@@ -194,7 +194,7 @@ In this task, we create an Application Security Group and a Network Security Gro
     | Subscription | *your subscription* |
     | Resource group | **az104-rg4** |
     | Name | `myNSGSecure` |
-    | Region | **East US**  |
+    | Region | **West US**  |
 
 1. Click **Review + create** and then after the validation click **Create**.
 
@@ -273,7 +273,7 @@ You can configure Azure DNS to resolve host names in your public domain. For exa
     | Subscription | **Select your subscription** |
     | Resource group | **az-104-rg4** |
     | Name | `contoso.com` (if reserved adjust the name) |
-    | Region |**East US** (review the informational icon) |
+    | Region |**West US** (review the informational icon) |
 
 1. Select **Review create** and then **Create**.
    
@@ -316,7 +316,7 @@ A private DNS zone provides name resolution services within virtual networks. A 
     | Subscription | **Select your subscription** |
     | Resource group | **az-104-rg4** |
     | Name | `private.contoso.com` (adjust if you had to rename) |
-    | Region |**East US** |
+    | Region |**West US** |
 
 1. Select **Review create** and then **Create**.
    
