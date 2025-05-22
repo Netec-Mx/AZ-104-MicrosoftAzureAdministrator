@@ -36,7 +36,7 @@ There are interactive lab simulations that you might find useful for this topic.
 
 In this task, you will use a template to deploy one virtual network, one network security group, and two virtual machines.
 
-1. Download the **\\Allfiles\\Lab06** lab files (template and parameters).
+1. Locate the **\Allfiles\Labs\06** lab files (template and parameters) in the left sidebar of this repository and download it to your computer.
 
 1. Sign in to the **Azure portal** - `https://portal.azure.com`.
 
