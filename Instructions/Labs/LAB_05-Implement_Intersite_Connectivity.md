@@ -264,7 +264,9 @@ In this task, you want to control network traffic between the perimeter subnet a
 
 >**Note**: You have created a user defined route to direct traffic from the DMZ to the new NVA.  
 
-## Cleanup your resources
+## Task 7: Cleanup your resources
+
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab
 
 If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
 
@@ -272,12 +274,7 @@ If you are working with **your own subscription** take a minute to delete the la
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
 
-+ How can I use Azure PowerShell or Azure CLI commands to add a virtual network peering between vnet1 and vnet2?
-+ Create a table highlighting various Azure and 3rd party monitoring tools supported on Azure. Highlight when to use each tool. 
-+ When would I create a custom network route in Azure?
 
 ## Learn more with self-paced training
 
