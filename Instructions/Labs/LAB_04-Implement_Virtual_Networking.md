@@ -254,52 +254,9 @@ In this task, we create an Application Security Group and a Network Security Gro
     | Name | **DenyAnyCustom8080Outbound** |
 
 
-## Task 4: Configure public and private Azure DNS zones
+## Task 4: Configure private Azure DNS zones
 
-In this task, you will create and configure public and private DNS zones. 
-
-### Configure a public DNS zone
-
-You can configure Azure DNS to resolve host names in your public domain. For example, if you purchased the contoso.xyz domain name from a domain name registrar, you can configure Azure DNS to host the `contoso.com` domain and resolve www.contoso.xyz to the IP address of your web server or web app.
-
-1. In the portal, search for and select `DNS zones`.
-
-1. Select **+ Create**.
-
-1. Configure the **Basics** tab.
-
-    | Property | Value    |
-    |:---------|:---------|
-    | Subscription | **Select your subscription** |
-    | Resource group | **az-104-rg4** |
-    | Name | `contoso.com` (if reserved adjust the name) |
-    | Region |**West US** (review the informational icon) |
-
-1. Select **Review create** and then **Create**.
-   
-1. Wait for the DNS zone to deploy and then select **Go to resource**.
-
-1. On the **Overview** blade notice the names of the four Azure DNS name servers assigned to the zone. **Copy** one of the name server addresses. You will need it in a future step. 
-  
-1. Select **+ Record set**. **Add** a virtual network link record for each virtual network that needs private name-resolution support.
-
-    | Property | Value    |
-    |:---------|:---------|
-    | Name | **www** |
-    | Type | **A** |
-    | TTL | **1** |
-    | IP address | **10.1.1.4** |
-
->**Note:**  In a real-world scenario, you'd enter the public IP address of your web server.
-
-1. Select **OK** and verify your domain has an A record set named **www**.
-
-1. Open a command prompt, and run the following command. If you have changed the domain name, make an adjustment. 
-
-   ```sh
-   nslookup www.contoso.com <name server name>
-   ```
-1. Verify the host name www.contoso.com resolves to the IP address you provided. This confirms name resolution is working correctly.
+In this task, you will create and configure private DNS zones. 
 
 ### Configure a private DNS zone
 
@@ -352,14 +309,6 @@ If you are working with **your own subscription** take a minute to delete the la
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-+ Share the top 10 best practices when deploying and configuring a virtual network in Azure.
-+ How do I use Azure PowerShell and Azure CLI commands to create a virtual network with a public IP address and one subnet. 
-+ Explain Azure Network Security Group inbound and outbound rules and how they are used.
-+ What is the difference between Azure Network Security Groups and Azure Application Security Groups? Share examples of when to use each of these groups. 
-+ Give a step-by-step guide on how to troubleshoot any network issues we face when deploying a network on Azure. Also share the thought process used for every step of the troubleshooting.
 
 ## Learn more with self-paced training
 
