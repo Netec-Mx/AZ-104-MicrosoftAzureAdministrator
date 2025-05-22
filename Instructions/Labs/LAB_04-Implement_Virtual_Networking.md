@@ -281,7 +281,7 @@ A private DNS zone provides name resolution services within virtual networks. A 
 
 1. Notice on the **Overview** blade there are no name server records. 
 
-1. Select **DNS Management** and then select **Virtual network links**. Configure the link. 
+1. Select **DNS Management** and select **Virtual network links**, and then Select **+ Add**, Configure the link. 
 
     | Property | Value    |
     |:---------|:---------|
