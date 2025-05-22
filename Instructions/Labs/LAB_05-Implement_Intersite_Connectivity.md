@@ -138,7 +138,7 @@ In this task, you verify that resources in peered virtual networks can communica
 
 1. From the Azure portal, search for and select `Network Watcher`.
 
-1. From Network Watcher, in the Network diagnostic tools menu, select **Connection troubleshoot**.
+1. From Network Watcher, in the **Network diagnostic tools** menu, select **Connection troubleshoot**.
 
 1. Use the following information to complete the fields on the **Connection troubleshoot** page.
 
