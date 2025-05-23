@@ -10,7 +10,7 @@ lab:
 
 In this lab, you create and compare virtual machines to virtual machine scale sets. You learn how to create, configure and resize a single virtual machine. You learn how to create a virtual machine scale set and configure autoscaling.
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **East US**.
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **West US**.
 
 ## Estimated timing: 50 minutes
 
@@ -62,7 +62,7 @@ In this task, you will deploy two Azure virtual machines into different availabi
     | Subscription | the name of your Azure subscription |
     | Resource group |  **az104-rg8** (If necessary, click **Create new**) |
     | Virtual machine names | `az104-vm1` and `az104-vm2` (After selecting both availability zones, select **Edit names** under the VM name field.) |
-    | Region | **East US** |
+    | Region | **West US** |
     | Availability options | **Availability zone** |
     | Availability zone | **Zone 1, 2** (read the note about using virtual machine scale sets) |
     | Security type | **Standard** |
@@ -179,7 +179,7 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
     | Subscription | the name of your Azure subscription  |
     | Resource group | **az104-rg8**  |
     | Virtual machine scale set name | `vmss1` |
-    | Region | **(US)East US** |
+    | Region | **(US)West US** |
     | Availability zone | **Zones 1, 2, 3** |
     | Orchestration mode | **Uniform** |
     | Security type | **Standard** |
@@ -345,7 +345,7 @@ In this task, you scale the virtual machine scale set using a custom scale rule.
     New-AzVm `
     -ResourceGroupName 'az104-rg8' `
     -Name 'myPSVM' `
-    -Location 'East US' `
+    -Location 'West US' `
     -Image 'Win2019Datacenter' `
     -Zone '1' `
     -Size 'Standard_D2s_v3' `
