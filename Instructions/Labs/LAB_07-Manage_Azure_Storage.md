@@ -238,9 +238,9 @@ In this task, you will create and configure Azure File shares. You will use Stor
 
 ![Screenshot unauthorized access.](../media/az104-lab07-notauthorized.png)
 
-## Cleanup your resources
+## Task 4: Cleanup your resources
 
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab.
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
