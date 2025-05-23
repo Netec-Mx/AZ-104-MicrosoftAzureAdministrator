@@ -192,7 +192,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Starting address| `10.60.3.224` |
     | Size | `/27` |
 
-1. Click **Save**
+1. Click **Add**
 
     > **Note**: This subnet will be used by the Azure Application Gateway. The Application Gateway requires a dedicated subnet of /27 or larger size.
 
@@ -205,11 +205,10 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Subscription | your Azure subscription |
     | Resource group | `az104-rg6` |
     | Application gateway name | `az104-appgw` |
-    | Region | The **same** Azure region that you used in Task 1 |
+    | Region |**West US** The **same** Azure region that you used in Task 1 |
     | Tier | **Standard V2** |
     | Enable autoscaling | **No** |
-    | Minimum instance count | `2` |
-    | Availability zone | **1** (default) |
+    | Instance count | `2` |
     | HTTP2 | **Disabled** |
     | Virtual network | **az104-06-vnet1** |
     | Subnet | **subnet-appgw (10.60.3.224/27)** |
@@ -221,7 +220,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Frontend IP address type | **Public** |
     | Public IP address| **Add new** |
     | Name | `az104-gwpip` |
-    | Availability zone | **1** |
+    | Availability zone | **None** |
 
     >**Note:** The Application Gateway can have both a public and private IP address.
  
@@ -250,7 +249,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Add backend pool without targets | **No** |
     | Virtual machine | **az104-06-nic2 (10.60.2.4)** |
 
-1. Select **Next : Configuration >** and then **Add a routing rule**. Complete the information.
+1. Select **Next : Configuration >** and then **+Add a routing rule**. Complete the information.
 
     | Setting | Value |
     | --- | --- |
