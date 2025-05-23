@@ -314,9 +314,9 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
 > **Note**: You may need to refresh more than once or open a new browser window in InPrivate mode.
 
-## Cleanup your resources
+## Task 6: Cleanup your resources
 
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab. 
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
