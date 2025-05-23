@@ -60,6 +60,7 @@ In this task, you will use a template to deploy one virtual network, one network
     | ---           | ---           |
     | Subscription  | your Azure subscription |
     | Resource group | `az104-rg6` (If necessary, select **Create new**) |
+    | Region        | West US |
     | Password      | Provide a secure password |
 
     >**Note**: If you receive an error that the VM size is unavailable, select a SKU that is available in your subscription and has at least 2 cores.
@@ -89,7 +90,7 @@ In this task, you implement an Azure Load Balancer in front of the two Azure vir
     | Subscription | your Azure subscription |
     | Resource group | **az104-rg6** |
     | Name | `az104-lb` |
-    | Region | The **same** region that you deployed the VMs |
+    | Region |**West US** The **same** region that you deployed the VMs |
     | SKU  | **Standard** |
     | Type | **Public** |
     | Tier | **Regional** |
