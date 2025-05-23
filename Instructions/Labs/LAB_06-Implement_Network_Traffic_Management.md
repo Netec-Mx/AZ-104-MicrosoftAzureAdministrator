@@ -97,7 +97,7 @@ In this task, you implement an Azure Load Balancer in front of the two Azure vir
 
      ![Screenshot of the create load balancer page.](../media/az104-lab06-create-lb1.png)
 
-1. On the **Frontend IP configuration** tab, click **Add a frontend IP configuration** and use the following settings:  
+1. On the **Frontend IP configuration** tab, click **+Add a frontend IP configuration** and use the following settings:  
 
     | Setting | Value |
     | --- | --- |
@@ -114,18 +114,18 @@ In this task, you implement an Azure Load Balancer in front of the two Azure vir
     | SKU | Standard |
     | Tier | Regional |
     | Assignment | Static |
-    | Routing Preference | **Microsoft network** |
+   
 
     >**Note:** The Standard SKU provides a static IP address. Static IP addresses are assigned with the resource is created and released when the resource is deleted.  
 
-1. On the **Backend pools** tab, click **Add a backend pool** with the following settings (leave others with their default values). Click **+ Add** (twice) and then click **Next: Inbound rules**.
+1. On the **Backend pools** tab, click **+Add a backend pool** with the following settings (leave others with their default values). Click **Save** and then click **Next: Inbound rules**.
 
     | Setting | Value |
     | --- | --- |
     | Name | `az104-be` |
     | Virtual network | **az104-06-vnet1** |
     | Backend Pool Configuration | **NIC** |
-    | Click **Add** to add a virtual machine |  |
+    | Click **+Add** to add a virtual machine |  |
     | az104-06-vm0 | **check the box** |
     | az104-06-vm1 | **check the box** |
 
@@ -156,8 +156,8 @@ In this task, you implement an Azure Load Balancer in front of the two Azure vir
     | Close the create health probe window | **Save** |
     | Session persistence | **None** |
     | Idle timeout (minutes) | `4` |
-    | TCP reset | **Disabled** |
-    | Floating IP | **Disabled** |
+    | Enable TCP reset | **Disabled** |
+    | Enable Floating IP | **Disabled** |
     | Outbound source network address translation (SNAT) | **Recommended** |
 
 1. Select **Frontend IP configuration** from the Load Balancer page. Copy the public IP address.
