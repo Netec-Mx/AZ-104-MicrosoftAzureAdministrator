@@ -74,11 +74,10 @@ In this task, you will create and configure a storage account. The storage accou
 
 1. In the **Security + networking** blade, select **Networking**. Notice **Public network access** is disabled.
 
-    + Select **Manage** the **Public network access**.
-    + Change the **Public network access** to **Enable**.
-    + Change the **Default action** to **Enable from selected networks**.
-    + In the **IP addresses** section, select **Add your client IP address**.
+    + Change the **Public network access** to **Enabled from selected virtual networks and IP addresses**.
+    + In the **Firewall** section, select **Add your client IP address (Your IP)**.
     + **Save** your changes.
+
   
 1. In the **Data management** blade, select **Redundancy**. Notice the information about your primary and secondary data center locations.
 
@@ -102,12 +101,12 @@ In this task, you will create a blob container and upload an image. Blob contain
 
 1. In the **Data storage** blade, select **Containers**. 
 
-1. Click **+ Container** and **Create** a container with the following settings:
+1. Click **+ Add container** and **Create** a container with the following settings:
 
     | Setting | Value |
     | --- | --- |
     | Name | `data`  |
-    | Public access level | Notice the access level is set to private |
+    | Anonymous access level | Notice the access level is set to private |
 
     ![Screenshot of create a container.](../media/az104-lab07-create-container.png)
 
