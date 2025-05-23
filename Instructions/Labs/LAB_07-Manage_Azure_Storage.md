@@ -10,7 +10,7 @@ lab:
 
 In this lab you learn to create storage accounts for Azure blobs and Azure files. You learn to configure and secure blob containers. You also learn to use Storage Browser to configure and secure Azure file shares. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **East US**.
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **West US**.
 
 ## Estimated timing: 50 minutes
 
@@ -51,7 +51,7 @@ In this task, you will create and configure a storage account. The storage accou
     | Subscription          | the name of your Azure subscription  |
     | Resource group        | **az104-rg7** (create new) |
     | Storage account name  | any globally unique name between 3 and 24 in length consisting of letters and digits |
-    | Region                | **(US) East US**  |
+    | Region                | **(US) West US**  |
     | Performance           | **Standard** (notice the Premium option) |
     | Redundancy            | **Geo-redundant storage** (notice the other options)|
     | Make read access to data in the event of regional availability | Check the box |
