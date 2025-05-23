@@ -314,7 +314,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
 
 > **Note**: You may need to refresh more than once or open a new browser window in InPrivate mode.
 
-## Task 6: Cleanup your resources
+## Task 4: Cleanup your resources
 
 **Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab. 
 
