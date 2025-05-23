@@ -112,7 +112,7 @@ In this task, you will create a blob container and upload an image. Blob contain
 
 1. On your container, scroll to the ellipsis (...) on the far right, select **Access Policy**.
 
-1. In the **Immutable blob storage** area, select **Add policy**.
+1. In the **Immutable blob storage** area, select **+Add policy**.
 
     | Setting | Value |
     | --- | --- |
@@ -153,7 +153,7 @@ In this task, you will create a blob container and upload an image. Blob contain
 
 ### Configure limited access to the blob storage
 
-1. Select your uploaded file and then on the **Generate SAS** tab. You can also use the ellipsis (...) to the far right. Specify the following settings (leave others with their default values):
+1. Select your uploaded file and then to the ellipsis (...) on the far right, select **Generate SAS**. Specify the following settings (leave others with their default values):
 
     | Setting | Value |
     | --- | --- |
