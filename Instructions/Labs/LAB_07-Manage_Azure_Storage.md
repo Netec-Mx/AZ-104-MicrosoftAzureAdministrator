@@ -223,7 +223,7 @@ In this task, you will create and configure Azure File shares. You will use Stor
 
 1. In the **Security + networking** blade, select **Networking**.
 
-1. Select **Add existing virtual network** and select **vnet1** and **default** subnet, select **Add**.
+1. In the **Virtual networks** section, Select **+Add existing virtual network** and select **vnet1** and **default** subnet, select **Add**.
 
 1. In the **Firewall** section, **Delete** your machine IP address. Allowed traffic should only come from the virtual network. 
 
@@ -246,12 +246,6 @@ If you are working with **your own subscription** take a minute to delete the la
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ Provide an Azure PowerShell script to create a storage account with a blob container. 
-+ Provide a checklist I can use to ensure my Azure storage account is secure.
-+ Create a table to compare Azure storage redundancy models.
 
 ## Learn more with self-paced training
 
