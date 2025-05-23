@@ -290,7 +290,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Backend settings | **az104-http** |
     | Backend target | `az104-videobe` |
 
-1. Be sure to **Save** and check your changes, then select **Next : Tags >**. No changes are needed.
+1. Be sure to **Add** and check your changes, then select **Next : Tags >**. No changes are needed.
 
 1. Select **Next : Review + create >** and then click **Create**.
 
@@ -322,14 +322,6 @@ If you are working with **your own subscription** take a minute to delete the la
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ Compare and contrast the Azure Load Balancer with the Azure Application Gateway. Help me decide in which scenarios I should use each product.
-+ What tools are available to troubleshoot connections to an Azure Load Balancer? 
-+ What are the basic steps for configuring the Azure Application Gateway? Provide a high-level checklist. 
-+ Create a table highlighting three Azure load balancing solutions. For each solution show supported protocols, routing policies, session affinity, and TLS offloading.
   
 ## Learn more with self-paced training
 
