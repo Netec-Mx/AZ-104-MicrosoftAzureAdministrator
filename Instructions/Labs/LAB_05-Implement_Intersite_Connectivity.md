@@ -39,7 +39,8 @@ There are several interactive lab simulations that you might find useful for thi
 + Task 3: Use Network Watcher to test the connection between virtual machines. 
 + Task 4: Configure virtual network peerings between different virtual networks.
 + Task 5: Use Azure PowerShell to test the connection between virtual machines.
-+ Task 6: Create a custom route. 
++ Task 6: Create a custom route.
++ Task 7: Cleanup your resources.
 
 ## Task 1:  Create a core services virtual machine and virtual network
 
