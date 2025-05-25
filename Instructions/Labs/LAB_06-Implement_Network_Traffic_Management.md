@@ -10,7 +10,7 @@ lab:
 
 In this lab, you learn how to configure and test a public Load Balancer and an Application Gateway.
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **West US**.
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **Mexico Central**.
 
 ## Estimated timing: 50 minutes
 
@@ -31,6 +31,7 @@ There are interactive lab simulations that you might find useful for this topic.
 + Task 1: Use a template to provision an infrastructure.
 + Task 2: Configure an Azure Load Balancer.
 + Task 3: Configure an Azure Application Gateway.
++ Task 4: Cleanup your resources.
 
 ## Task 1: Use a template to provision an infrastructure
 
@@ -60,7 +61,7 @@ In this task, you will use a template to deploy one virtual network, one network
     | ---           | ---           |
     | Subscription  | your Azure subscription |
     | Resource group | `az104-rg6` (If necessary, select **Create new**) |
-    | Region        | West US |
+    | Region        | Mexico Central |
     | Password      | Provide a secure password |
 
     >**Note**: If you receive an error that the VM size is unavailable, select a SKU that is available in your subscription and has at least 2 cores.
@@ -90,7 +91,7 @@ In this task, you implement an Azure Load Balancer in front of the two Azure vir
     | Subscription | your Azure subscription |
     | Resource group | **az104-rg6** |
     | Name | `az104-lb` |
-    | Region |**West US** The **same** region that you deployed the VMs |
+    | Region |**Mexico Central** The **same** region that you deployed the VMs |
     | SKU  | **Standard** |
     | Type | **Public** |
     | Tier | **Regional** |
@@ -205,7 +206,7 @@ In this task, you implement an Azure Application Gateway in front of two Azure v
     | Subscription | your Azure subscription |
     | Resource group | `az104-rg6` |
     | Application gateway name | `az104-appgw` |
-    | Region |**West US** The **same** Azure region that you used in Task 1 |
+    | Region |**Mexico Central** The **same** Azure region that you used in Task 1 |
     | Tier | **Standard V2** |
     | Enable autoscaling | **No** |
     | Instance count | `2` |
