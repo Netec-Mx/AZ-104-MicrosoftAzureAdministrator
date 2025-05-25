@@ -10,7 +10,7 @@ lab:
 
 In this lab you explore communication between virtual networks. You implement virtual network peering and test connections. You will also create a custom route. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **West US**. 
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **Mexico Central**. 
 
 ## Estimated time: 50 minutes
     
@@ -58,7 +58,7 @@ In this task, you create a core services virtual network with a virtual machine.
     | Subscription |  *your subscription* |
     | Resource group |  `az104-rg5` (If necessary, **Create new**. )
     | Virtual machine name |    `CoreServicesVM` |
-    | Region | **(US) West US** |
+    | Region | **Mexico Central** |
     | Availability options | No infrastructure redundancy required |
     | Security type | **Standard** |
     | Image | **Windows Server 2019 Datacenter: x64 Gen2** (notice your other choices) |
@@ -105,7 +105,7 @@ In this task, you create a manufacturing services virtual network with a virtual
     | Subscription |  *your subscription* |
     | Resource group |  `az104-rg5` |
     | Virtual machine name |    `ManufacturingVM` |
-    | Region | **(US) West US** |
+    | Region | **Mexico Central** |
     | Security type | **Standard** |
     | Availability options | No infrastructure redundancy required |
     | Image | **Windows Server 2019 Datacenter: x64 Gen2** |
@@ -236,7 +236,7 @@ In this task, you want to control network traffic between the perimeter subnet a
     | --- | --- |
     | Subscription | your subscription |
     | Resource group | `az104-rg5`  |
-    | Region | **West US** |
+    | Region | **Mexico Central** |
     | Name | `rt-CoreServices` |
     | Propagate gateway routes | **No** |
 1. Select **Review + Create**, and then select **Create**.
