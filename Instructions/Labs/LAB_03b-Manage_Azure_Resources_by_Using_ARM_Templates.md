@@ -10,7 +10,7 @@ lab:
 
 In this lab, you learn how to automate resource deployments. You learn about Azure Resource Manager templates and Bicep templates. You learn about the different ways of deploying the templates. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **West US**. 
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **Mexico Central**. 
 
 ## Estimated timing: 50 minutes
 
@@ -37,6 +37,7 @@ Your team wants to look at ways to automate and simplify resource deployments. Y
 + Task 3: Configure the Cloud Shell and deploy a template with Azure PowerShell.
 + Task 4: Deploy a template with the CLI. 
 + Task 5: Deploy a resource by using Azure Bicep.
++ Task 6: Cleanup your resources.
 
 ## Task 1: Create an Azure Resource Manager template
 
@@ -55,7 +56,7 @@ In this task, we will create a managed disk in the Azure portal. Managed disks a
     | Subscription | *your subscription* | 
     | Resource Group | `az104-rg3` (If necessary, select **Create new**.)
     | Disk name | `az104-disk1` | 
-    | Region | **West US** |
+    | Region | **Mexico Central** |
     | Availability zone | **No infrastructure redundancy required** | 
     | Source type | **None** |
     | Performance | **Standard HDD** (change size) |
@@ -112,7 +113,7 @@ In this task, you use the downloaded template to deploy a new managed disk. This
     | --- |--- |
     | Subscription | *your subscription* |
     | Resource Group | `az104-rg3` |
-    | Region | **(US) West US)** |
+    | Region | **Mexico Central** |
     | Disk_name | `az104-disk2` |
 
 1. Select **Review + Create** and then select **Create**.
