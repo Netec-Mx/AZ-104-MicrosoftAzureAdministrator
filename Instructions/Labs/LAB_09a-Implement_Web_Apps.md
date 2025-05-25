@@ -38,6 +38,7 @@ There are interactive lab simulations that you might find useful for this topic.
 + Task 3: Configure web app deployment settings.
 + Task 4: Swap deployment slots.
 + Task 5: Configure and test autoscaling of the Azure web app.
++ Task 6: Cleanup your resources.
 
 ## Task 1: Create and configure an Azure web app
 
@@ -54,7 +55,7 @@ In this task, you create an Azure web app. Azure App Services is a Platform As a
     | Setting | Value |
     | --- | ---|
     | Subscription | your Azure subscription |
-    | Resource group | `az104-rgYY` (**"YY"** is equal to your student number) |
+    | Resource group |  **az104-rg9** (If necessary, click **Create new**) |
     | Web app name | any globally unique name |
     | Publish | **Code** |
     | Runtime stack | **PHP 8.2** |
