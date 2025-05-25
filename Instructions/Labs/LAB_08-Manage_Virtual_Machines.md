@@ -38,6 +38,7 @@ There are interactive lab simulations that you might find useful for this topic.
 + Task 4: Scale Azure Virtual Machine Scale Sets.
 + Task 5: Create a virtual machine using Azure PowerShell (optional 1).
 + Task 6: Create a virtual machine using the CLI (optional 2).
++ Task 7: Cleanup your resources.
 
 ## Azure Virtual Machines Architecture Diagram
 
@@ -404,20 +405,14 @@ In this task, you scale the virtual machine scale set using a custom scale rule.
 
     >**Did you know?** When you use Azure to stop your virtual machine, the status is *deallocated*. This means that any non-static public IPs are released, and you stop paying for the VM’s compute costs.
 
-## Cleanup your resources
+## Task 7: Cleanup your resources
 
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab.
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ Provide the steps and the Azure CLI commands to create a Linux virtual machine. 
-+ Review the ways you can scale virtual machines and improve performance.
-+ Describe Azure storage lifecycle management policies and how they can optimize costs.
 
 ## Learn more with self-paced training
 
