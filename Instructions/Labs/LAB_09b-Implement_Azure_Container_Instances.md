@@ -49,7 +49,7 @@ In this task, you will create a simple web application using a Docker image. Doc
     | Subscription | Select your Azure subscription |
     | Resource group | `az104-rg9` (If necessary, select **Create new**) |
     | Container name | `az104-c1` |
-    | Region | **Mexico Central** (or a region available near you)|
+    | Region | **Mexico Central**|
     | Image Source | **Quickstart images** |
     | Image | **mcr.microsoft.com/azuredocs/aci-helloworld:latest (Linux)** |
 
