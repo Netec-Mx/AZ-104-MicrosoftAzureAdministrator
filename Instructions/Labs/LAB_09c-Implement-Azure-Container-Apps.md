@@ -30,6 +30,7 @@ There are no interactive lab simulations for this topic.
 
 - Task 1: Create and configure an Azure Container App and environment.
 - Task 2: Test and verify deployment of the Azure Container App.
+- Task 3: Cleanup your resources.
 
 ## Task 1: Create and configure an Azure Container App and environment
 
@@ -69,19 +70,14 @@ By default, the Azure container app that you create will accept traffic on port 
 
 1. Verify you receive the **Your Azure Container Apps app is live** message.
    
-## Cleanup your resources
+## Task 3: Cleanup your resources
 
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab.
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ Summarize the steps to create and configure an Azure Container App.
-+ Compare and contrast Azure Container Apps to Azure Kubernetes Service.
 
 ## Learn more with self-paced training
 
