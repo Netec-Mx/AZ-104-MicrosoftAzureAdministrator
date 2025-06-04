@@ -10,7 +10,7 @@ lab:
 
 In this lab, you learn how to implement your organization’s governance plans. You learn how Azure policies can ensure operational decisions are enforced across the organization. You learn how to use resource tagging to improve reporting. 
 
-This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **Mexico Central**. 
+This lab requires an Azure subscription. Your subscription type may affect the availability of features in this lab. You may change the region, but the steps are written using **Canada Central**. 
 
 ## Estimated timing: 30 minutes
 
@@ -61,7 +61,7 @@ In this task, you will create and assign a tag to an Azure resource group via th
     | --- | --- |
     | Subscription name | your subscription |
     | Resource group name | `az104-rg2` |
-    | Location | **Mexico Central** |
+    | Location | **Canada Central** |
 
     >**Note:** For each lab in this course you will create a new resource group. This lets you quickly locate and manage your lab resources. 
 
