@@ -42,7 +42,7 @@ There is an interactive lab simulation that you might find useful for this topic
 
 In this task, you will use a template to deploy a virtual machine. The virtual machine will be used to test different backup scenarios.
 
-1. Download the **\\Allfiles\\Lab10\\** lab files.
+1. Download the **\\Allfiles\\Labs\\Lab10\\** lab files in the left sidebar of this repository and download it to your computer.
 
 1. Sign in to the **Azure portal** - `https://portal.azure.com`.
 
