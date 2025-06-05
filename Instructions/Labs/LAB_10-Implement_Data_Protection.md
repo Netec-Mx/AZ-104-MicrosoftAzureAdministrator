@@ -52,7 +52,7 @@ In this task, you will use a template to deploy a virtual machine. The virtual m
 
 1. On the edit template page, select **Load file**.
 
-1. Locate and select the **\\Allfiles\\Lab10\\az104-10-vms-edge-template.json** file and select **Open**.
+1. Locate and select the **\\Allfiles\\Labs\\Lab10\\az104-10-vms-edge-template.json** file and select **Open**.
 
    >**Note:** Take a moment to review the template. We are deploying a virtual network and virtual machine so we can demonstrate backup and recovery. 
 
@@ -60,7 +60,7 @@ In this task, you will use a template to deploy a virtual machine. The virtual m
 
 1. Select **Edit parameters** and then **Load file**.
 
-1. Load and select the **\\Allfiles\\Lab10\\az104-10-vms-edge-parameters.json** file.
+1. Load and select the **\\Allfiles\\Labs\\Lab10\\az104-10-vms-edge-parameters.json** file.
 
 1. **Save** your changes.
 
