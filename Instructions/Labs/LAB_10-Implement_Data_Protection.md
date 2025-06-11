@@ -243,6 +243,8 @@ In this task, you will deploy an Azure storage account. Then you will configure 
 1. After the deployment, select **Go to resource**.
 
 1. In the **Data management** section, click **Data protection**, and then Uncheck the box **Enable soft delete for blobs** and Select **Save**.
+   
+1. **Go to your storage account** that you created in Task 2, Step 3
 
 
 ## Task 5: Enable virtual machine replication
