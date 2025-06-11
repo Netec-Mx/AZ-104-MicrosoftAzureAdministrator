@@ -30,7 +30,8 @@ There is an interactive lab simulation that you might find useful for this topic
 + Task 2: Create and configure a Recovery Services vault.
 + Task 3: Configure Azure virtual machine-level backup.
 + Task 4: Monitor Azure Backup.
-+ Task 5: Enable virtual machine replication. 
++ Task 5: Cache storage account
++ Task 6: Enable virtual machine replication. 
 
 ## Estimated timing: 40 minutes
 
@@ -219,7 +220,9 @@ In this task, you will deploy an Azure storage account. Then you will configure 
 1. **View details** (scroll to the right for the link) of the backup job.
 
 
-## Task 4: Monitor Azure Backup
+## Task 5: Cache storage account
+
+In this task, you will deploy an Azure storage account for Cache storage account is located in the source region. They are used as a temporary data store before replicating the changes to the target region.
 
 1. From the Azure portal, search for and select `Storage accounts`.
 
@@ -244,10 +247,12 @@ In this task, you will deploy an Azure storage account. Then you will configure 
 
 1. In the **Data management** section, click **Data protection**, and then Uncheck the box **Enable soft delete for blobs** and Select **Save**.
    
-1. **Go to your storage account** that you created in Task 2, Step 3
+1. **Go to your storage account** that is in the resource group  `az104-rg-region1` you created in **Task 4**.
+
+1. In the **Data management** section, click **Data protection**, and then Uncheck the box **Enable soft delete for blobs** and Select **Save**.
 
 
-## Task 5: Enable virtual machine replication
+## Task 6: Enable virtual machine replication
 
 1. In the Azure portal, search for and select `Recovery Services vaults` and, on the **Recovery Services vaults** blade, click **+ Create**.
 
@@ -271,9 +276,13 @@ In this task, you will deploy an Azure storage account. Then you will configure 
 1. In the **Backup + Disaster recovery** blade, select **Disaster recovery**. 
 
 
-1. On the **Basics** tab, notice the **Target region**, select **East US**.
+1. On the **Basics** tab, notice the **Target region**, select the region **Canada Central**.
 
-1. Select **Next: Advanced settings**. Resource selections have been made for you. 
+1. Select **Next: Advanced settings**.
+   
+1. In the Target settings section, go to the **Target column** and select the resource group `az104-rg-region2`.
+   
+1. In the Storage settings section, go to the **Cache storage account** and select the your storage account that you created in **Task 5**. 
 
 1. Scroll down and **Create** the automation account. 
 
@@ -303,13 +312,6 @@ If you are working with **your own subscription** take a minute to delete the la
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ What products does Azure Backup support?
-+ Summarize the steps for backing up and restoring an Azure virtual machine with Azure Backup.
-+ How can I use Azure PowerShell or the CLI to check the status of an Azure Backup job.
-+ Provide at least five best practices for configuring Azure virtual machine backups.  
 
 ## Learn more with self-paced training
 
