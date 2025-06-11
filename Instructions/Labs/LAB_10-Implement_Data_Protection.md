@@ -233,10 +233,16 @@ In this task, you will deploy an Azure storage account. Then you will configure 
     | Resource group | `az104-rg-region2` (If necessary, select **Create new**) |
     | Storage account name  | Provide a globally unique name   |
     | Region                | **Canada Central**   |
+    | Performance           | **Premium**   |
+    | Premium account type  | **Block blobs**   |
 
 1. Select **Create**.
 
     >**Note**: Wait for the deployment to complete. It should take about a minute.
+
+1. After the deployment, select **Go to resource**.
+
+1. In the **Data management** section, click **Data protection**, and then Uncheck the box **Enable soft delete for blobs** and Select **Save**.
 
 
 ## Task 5: Enable virtual machine replication
