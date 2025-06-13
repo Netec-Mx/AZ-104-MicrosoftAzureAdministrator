@@ -51,7 +51,7 @@ In this task, you will deploy a virtual machine that will be used to test monito
 
 1. On the edit template page, select **Load file**.
 
-1. Locate and select the **\\Allfiles\\Labs\11\\az104-11-vm-template.json** file and select **Open**.
+1. Locate and select the **\\Allfiles\\Lab\11\\az104-11-vm-template.json** file and select **Open**.
 
 1. Select **Save**.
 
