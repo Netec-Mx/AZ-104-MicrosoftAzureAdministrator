@@ -309,6 +309,22 @@ In this task, you will deploy an Azure storage account for Cache storage account
 
 **Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab
 
+1. In the Azure portal, search for and select `Recovery Services vaults` and  blade  select your ***az104-rsv-region1** and then select **Delete**.
+   
+1. On the Delete Recovery Services vault window select **Delete using PowerShell script** option.
+   
+1. Scroll down and Select **generate and download script** button.
+   
+1. Go to **Cloud Shell** in the Azure portal, located in the top-right corner.
+   
+1. Click on the **Switch to PowerShell** option.
+   
+1. In the **Manage files** menu, select **Upload** and locate the deletion script you downloaded in **step 2**.
+   
+1. Run the command: **.\Delete_az104-rsv-region1.ps1**.
+   
+3. Repeat steps 1 and 2 for the **Recovery Services vault** `az104-rsv-region2`.
+
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
