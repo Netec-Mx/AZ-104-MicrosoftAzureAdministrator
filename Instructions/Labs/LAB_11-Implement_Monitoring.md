@@ -195,14 +195,14 @@ In this task, you create an alert rule to suppress notifications during a mainte
 
 Enter these settings for the scheduling of the alert processing rule:
 
-    | Setting | Value |
-    |---------|---------|
-    | Apply the rule | At a specific time |
-    | Start | Enter today's date at 10 pm. |
-    | End | Enter tomorrow's date at 7 am. |
-    | Time zone | Select the local timezone. |
+  | Setting | Value |
+  |---------|---------|
+  | Apply the rule | At a specific time |
+  | Start | Enter today's date at 10 pm. |
+  | End | Enter tomorrow's date at 7 am. |
+  | Time zone | Select the local timezone. |
 
-    ![Screenshot of the scheduling section of an alert processing rule](../media/az104-lab11-alert-processing-rule-schedule.png)
+  ![Screenshot of the scheduling section of an alert processing rule](../media/az104-lab11-alert-processing-rule-schedule.png)
 
        
 
