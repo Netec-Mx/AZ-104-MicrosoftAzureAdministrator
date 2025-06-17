@@ -36,6 +36,7 @@ There is an interactive lab simulation that you might find useful for this topic
 + Task 4: Trigger an alert and confirm it is working.
 + Task 5: Configure an alert processing rule.
 + Task 6: Use Azure Monitor log queries.
++ Task 7: Cleanup your resources.
 
 ## Task 1: Use a template to provision an infrastructure
 
@@ -249,9 +250,9 @@ In this task, you will use Azure Monitor to query the data captured from the vir
     
     >**Did you know?**: Once you find a query you like, you can create an alert from it. 
 
-## Cleanup your resources
+## Task 7: Cleanup your resources
 
-If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+**Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
