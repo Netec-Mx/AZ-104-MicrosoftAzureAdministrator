@@ -62,7 +62,7 @@ In this task, you will use a template to deploy a virtual machine. The virtual m
 
 1. Select **Edit parameters** and then **Load file**.
 
-1. Load and select the **\\Allfiles\\Labs\\Lab10\\az104-10-vms-edge-parameters.json** file.
+1. Load and select the **\\Allfiles\\Labs\\10\\az104-10-vms-edge-parameters.json** file.
 
 1. **Save** your changes.
 
