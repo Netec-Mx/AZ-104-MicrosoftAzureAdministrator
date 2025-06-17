@@ -77,9 +77,9 @@ In this task, you will deploy a virtual machine that will be used to test monito
 
 1. Take a minute to review all the insights, detection, triage, and diagnosis tools that are available.
 
-1. Select **View** in the **VM Insights** box, and then select **Configure Insights**.
+1.On the Overview blade Select **View** in the **VM Insights** box, and then select **Configure Insights**.
 
-1. Select your virtual machine, and then **Enable** (twice).
+1. On your virtual machine `az104-vm0`, click **Enable** (twice).
 
 1. Take the defaults for subscription and data collection rules, then select **Configure**. 
 
@@ -91,7 +91,7 @@ In this task, you create an alert for when a virtual machine is deleted.
 
 1. Continue on the **Monitor** page , select **Alerts**. 
 
-1. Select **Create +** and select **Alert rule**. 
+1. Select **+ Create** and select **Alert rule**. 
 
 1. Select the box for the subscription, then select **Apply**. This alert will apply to any virtual machines in the subscription. Alternatively, you could just specify one particular machine. 
 
@@ -109,7 +109,9 @@ In this task, you create an alert for when a virtual machine is deleted.
 
 In this task, if the alert is triggered send an email notification to the operations team. 
 
-1. Continue working on your alert. Select **Next: Actions**, and then select **Create action group**.
+1. Continue working on your alert. Select **Next: Actions**, and then select **Use action groups**.
+
+1. On the **Select action groups** popup  Select **+ Create action group**.
 
     >**Did you know?** You can add up to five action groups to an alert rule. Action groups are executed concurrently, in no specific order. Multiple alert rules can use the same action group. 
 
@@ -179,15 +181,17 @@ In this task, you trigger the alert and confirm a notification is sent.
 
 In this task, you create an alert rule to suppress notifications during a maintenance period. 
 
-1. Continue in the **Alerts** blade, select **Alert processing rules** and then **+ Create**. 
+1. Continue in the **Alerts** blade, select **+ Create** and then **Alert processing rules**.  
    
 1. Select your **Subscription**, then select **Apply**.
    
 1. Select **Next: Rule settings**, then select **Suppress notifications**.
    
 1. Select **Next: Scheduling**.
+
    
 1. By default, the rule works all the time, unless you disable it or configure a schedule. You are going to define a rule to suppress notifications during overnight maintenance.
+
 Enter these settings for the scheduling of the alert processing rule:
 
     | Setting | Value |
@@ -221,13 +225,13 @@ In this task, you will use Azure Monitor to query the data captured from the vir
 
 1. In the **Queries** tab, select **Virtual machines** (left pane). You may need to reopen the blade.
 
-    ![Screenshot of the queries tab.](../media/az104-lab11-queries.png)
-
 1. Review the queries that are available. **Run** (hover over the query) the **Count heartbeats** query.
 
 1. You should receive a heartbeat count for when the virtual machine was running.
 
 1. Review the query. This query uses the *heartbeat* table. 
+
+1. In the top-right corner, switch from `Simple mode` to  `KQL mode`.
 
 1. Replace the query with this one, and then click **Run**. Review the resulting chart. 
 
@@ -253,12 +257,6 @@ If you are working with **your own subscription** take a minute to delete the la
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
-## Extend your learning with Copilot
-Copilot can assist you in learning how to use the Azure scripting tools. Copilot can also assist in areas not covered in the lab or where you need more information. Open an Edge browser and choose Copilot (top right) or navigate to *copilot.microsoft.com*. Take a few minutes to try these prompts.
-
-+ What are the basic configuration steps to be alerted in Azure when a virtual machine is down?
-+ How can I be notified when an Azure alert is triggered?
-+ Construct an Azure Monitor query to provide virtual machine CPU performance information.
 
 ## Learn more with self-paced training
 
