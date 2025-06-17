@@ -204,6 +204,8 @@ Enter these settings for the scheduling of the alert processing rule:
 
     ![Screenshot of the scheduling section of an alert processing rule](../media/az104-lab11-alert-processing-rule-schedule.png)
 
+       
+
 1. Select **Next: Details** and enter these settings:
 
     | Setting | Value |
