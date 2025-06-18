@@ -198,7 +198,7 @@ In this task, you will deploy an Azure virtual machine scale set across availabi
 
 1. On the **Disks** tab, accept the default values and click **Next : Networking >**.
 
-1. On the **Networking** page, select **Edit virtual network** link. Make a few changes. When finished, select **OK**.
+1. On the **Networking** page, select **Edit virtual network** link. Make a few changes. When finished, select **Save**.
 
     | Setting | Value |
     | --- | --- |
