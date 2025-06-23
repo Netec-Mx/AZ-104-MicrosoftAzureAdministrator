@@ -136,8 +136,12 @@ In this task, you work with the Azure Cloud Shell and Azure PowerShell. Azure Cl
 
    ![Screenshot of cloud shell icon.](../media/az104-lab03-cloudshell-icon.png)
 
-1. In the Cloud Shell terminal menu, select **Switch to PowerShell**. 
-
+1. In the Welcome to Azure Cloud Shell window, select **PowerShell**.
+   
+1. In the Getting started window, select **No storage account required**.
+   
+1. On the Subscription select *your subscription* and then **Apply**.
+ 
     >**Did you know?**  If you mostly work with Linux systems, Bash (CLI) feels more familiar. If you mostly work with Windows systems, Azure PowerShell feels more familiar. 
 
 1. Select **Settings** (top bar) and then **Go to classic version**.
