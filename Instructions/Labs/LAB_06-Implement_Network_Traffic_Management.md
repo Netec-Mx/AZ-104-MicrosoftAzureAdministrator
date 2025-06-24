@@ -107,7 +107,7 @@ In this task, you implement an Azure Load Balancer in front of the two Azure vir
     | Gateway Load Balancer | None |
     | Public IP address | Select **Create new** (use the instructions in the next step) |
 
-1. On the **Add a public IP address** popup, use the following settings before clicking **OK** and then **Add**. When completed click **Next: Backend pools**.
+1. On the **Add a public IP address** popup, use the following settings then click  **Save**.After closing the popup, click **Save** again. Once completed, click **Next: Backend pools**.
 
     | Setting | Value |
     | --- | --- |
