@@ -183,8 +183,11 @@
         "count": "[variables('numberOfInstances')]"
       },
       "location": "[resourceGroup().location]",
+      "sku": {
+        "name": "Standard"
+      },
       "properties": {
-        "publicIpAllocationMethod": "Dynamic"
+        "publicIpAllocationMethod": "Static"
       }
     },
     {
@@ -241,7 +244,7 @@
           "osDisk": {
             "createOption": "FromImage",
             "managedDisk": {
-               "storageAccountType": "Standard_LRS"
+              "storageAccountType": "Standard_LRS"
             }
           }
         },
