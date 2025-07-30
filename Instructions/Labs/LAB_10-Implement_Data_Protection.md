@@ -283,7 +283,9 @@ In this task, you will deploy an Azure storage account for Cache storage account
    
 1. In the Target settings section, go to the **Target column** and select the resource group `az104-rg-region2`.
    
-1. In the Storage settings section, go to the **Cache storage account** and select the your storage account that you created in **Task 5**. 
+1. In the *Storage settings* section, go to the **Churn for the VM** and select **Normal Churn**.
+
+1. In the *Storage settings* section, go to the **Cache storage account** and select the your storage account that you created in **Task 5**. 
 
 1. Scroll down and **Create** the automation account. 
 
