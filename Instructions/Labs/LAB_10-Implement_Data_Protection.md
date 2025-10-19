@@ -253,7 +253,7 @@ In this task, you will deploy an Azure storage account. Then you will configure 
    
 1. In the *Storage settings* section, go to the **Churn for the VM** and select **Normal Churn**.
 
-1. In the *Storage settings* section, go to the **Cache storage account** and select the your storage account that you created in **Task 5**. 
+1. In the *Storage settings* section, go to the **Cache storage account** and select the your storage account that you created in **Task 4**. 
 
 1. Scroll down and **Create** the automation account. 
 
