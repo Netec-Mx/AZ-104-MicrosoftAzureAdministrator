@@ -191,6 +191,10 @@ In this task, you will deploy an Azure storage account. Then you will configure 
 1. Select **Create**.
 
     >**Note**: Wait for the deployment to complete. It should take about a minute.
+    
+1. After the deployment, select **Go to resource**.
+
+1. In the **Data management** section, click **Data protection**, and then Uncheck the box **Enable soft delete for blobs** and Select **Save**.
 
 1. Search and select your Recovery Services vault.
 
