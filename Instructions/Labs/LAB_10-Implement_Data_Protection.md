@@ -30,9 +30,8 @@ There is an interactive lab simulation that you might find useful for this topic
 + Task 2: Create and configure a Recovery Services vault.
 + Task 3: Configure Azure virtual machine-level backup.
 + Task 4: Monitor Azure Backup.
-+ Task 5: Cache storage account
-+ Task 6: Enable virtual machine replication.
-+ Task 7: Cleanup your resources.
++ Task 5: Enable virtual machine replication.
++ Task 6: Cleanup your resources.
 
 ## Estimated timing: 40 minutes
 
@@ -221,39 +220,8 @@ In this task, you will deploy an Azure storage account. Then you will configure 
 1. **View details** (scroll to the right for the link) of the backup job.
 
 
-## Task 5: Cache storage account
 
-In this task, you will deploy an Azure storage account for Cache storage account is located in the source region. They are used as a temporary data store before replicating the changes to the target region.
-
-1. From the Azure portal, search for and select `Storage accounts`.
-
-1. On the Storage accounts page, select **Create**.
-
-1. Use the following information to define the storage account, then and select **Review + create**.
-
-    | Settings | Value |
-    | --- | --- | 
-    | Subscription          | *Your subscription*    |
-    | Resource group | `az104-rg-region2` (If necessary, select **Create new**) |
-    | Storage account name  | Provide a globally unique name   |
-    | Region                | **Canada Central**   |
-    | Performance           | **Premium**   |
-    | Premium account type  | **Block blobs**   |
-
-1. Select **Create**.
-
-    >**Note**: Wait for the deployment to complete. It should take about a minute.
-
-1. After the deployment, select **Go to resource**.
-
-1. In the **Data management** section, click **Data protection**, and then Uncheck the box **Enable soft delete for blobs** and Select **Save**.
-   
-1. **Go to your storage account** that is in the resource group  `az104-rg-region1` you created in **Task 4**.
-
-1. In the **Data management** section, click **Data protection**, and then Uncheck the box **Enable soft delete for blobs** and Select **Save**.
-
-
-## Task 6: Enable virtual machine replication
+## Task 5: Enable virtual machine replication
 
 1. In the Azure portal, search for and select `Recovery Services vaults` and, on the **Recovery Services vaults** blade, click **+ Create**.
 
@@ -307,7 +275,7 @@ In this task, you will deploy an Azure storage account for Cache storage account
    
 >**Did you know?** It is a good practice to [test the failover of a protected VM](https://learn.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure#run-a-test-failover-for-a-single-vm).
 
-## Task 7: Cleanup your resources
+## Task 6: Cleanup your resources
 
 **Delete your resource group** to avoid resource duplication and potential inconsistencies in your next lab
 
