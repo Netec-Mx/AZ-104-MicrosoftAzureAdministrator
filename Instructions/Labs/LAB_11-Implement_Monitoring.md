@@ -224,11 +224,15 @@ In this task, you will use Azure Monitor to query the data captured from the vir
 
 1. If necessary, **close the splash screen**. 
 
-1. If necessary, select a scope, your **Subscription**. Select **Apply**. 
+1. If necessary, select a scope, your **Subscription**. Select **Apply**.
 
-1. In the **Queries** tab, select **Virtual machines** (left pane). You may need to reopen the blade.
+1. In the, **Queries hub** window select **Resource type** option and then select **Virtual machine** (left pane). You may need to reopen the blade.
 
-1. Review the queries that are available. **Run** (hover over the query) the **Count heartbeats** query.
+1. In the **Queries** tab, select **Virtual machines** 
+
+1. Review the queries that are available (hover over the query) the **Count heartbeats** query select  **Run** button.
+
+![Monitor tasks](../media/az104-lab11-monitor1.png)
 
 1. You should receive a heartbeat count for when the virtual machine was running.
 
