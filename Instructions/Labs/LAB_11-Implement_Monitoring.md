@@ -222,7 +222,7 @@ In this task, you will use Azure Monitor to query the data captured from the vir
 
 1. In the Azure portal, search for and select `Monitor`, then click **Logs**.
 
-1. If necessary, close the splash screen. 
+1. If necessary, **close the splash screen**. 
 
 1. If necessary, select a scope, your **Subscription**. Select **Apply**. 
 
