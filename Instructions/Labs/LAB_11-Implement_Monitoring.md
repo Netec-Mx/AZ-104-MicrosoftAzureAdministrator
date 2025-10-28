@@ -80,10 +80,10 @@ In this task, you will deploy a virtual machine that will be used to test monito
 
 1.On the Overview blade Select **View** in the **VM Insights** box, and then select **Configure Insights**.
 
-1. On your virtual machine `az104-vm0`, click **Enable** (twice).
+1. On your virtual machine `az104-vm0`, click **Enable** button and select **Review + enable** and then select **Enable** button. 
 
-1. Take the defaults for subscription and data collection rules, then select **Configure**. 
-
+1. Take the defaults for subscription and data collection rules.
+   
 1. It will take a few minutes for the virtual machine agent to install and configure, proceed to the next step. 
    
 ## Task 2: Create an alert
@@ -94,7 +94,7 @@ In this task, you create an alert for when a virtual machine is deleted.
 
 1. Select **+ Create** and select **Alert rule**. 
 
-1. Select the box for the subscription, then select **Apply**. This alert will apply to any virtual machines in the subscription. Alternatively, you could just specify one particular machine. 
+1. Select the box for the subscription, then select **Apply** button. This alert will apply to any virtual machines in the subscription. Alternatively, you could just specify one particular machine. 
 
 1. Select the **Condition** tab and then select the **See all signals** link.
 
@@ -110,7 +110,7 @@ In this task, you create an alert for when a virtual machine is deleted.
 
 In this task, if the alert is triggered send an email notification to the operations team. 
 
-1. Continue working on your alert. Select **Next: Actions**, and then select **Use action groups**.
+1. Continue working on your alert. Select **Next: Actions**, and then select **Use action groups** option.
 
 1. On the **Select action groups** popup  Select **+ Create action group**.
 
@@ -141,7 +141,7 @@ In this task, if the alert is triggered send an email notification to the operat
 
 1. Select **Review + Create** and then **Create**.
    
-1. Once the action group is created move to the **Next: Details** tab and enter the following values for each setting.
+1. Once the action group is created select **Next: Details** button and enter the following values for each setting.
 
     | Setting | Value |
     |---------|---------|
