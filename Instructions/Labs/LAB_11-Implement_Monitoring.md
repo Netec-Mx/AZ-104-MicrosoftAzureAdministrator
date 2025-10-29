@@ -238,7 +238,7 @@ In this task, you will use Azure Monitor to query the data captured from the vir
 
 1. In the top-right corner, switch from `Simple mode` to  `KQL mode`.
 
-1. Replace the query with this one, and then click **Run**. Review the resulting chart. 
+1. Replace the query with this one, and then click **Run**. Review the resulting chart,. You may need to reopen the blade. 
 
    ```
     InsightsMetrics
@@ -247,6 +247,7 @@ In this task, you will use Azure Monitor to query the data captured from the vir
     | summarize avg(Val) by bin(TimeGenerated, 5m), Computer //split up by computer
     | render timechart
    ```
+>**Note:** If the query does not paste correctly, try pasting into Notepad and then copying and re-pasting into the query field.
 
 1. As you have time, review and run other queries. 
 
